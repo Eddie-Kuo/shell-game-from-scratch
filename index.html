@@ -22,6 +22,35 @@
     </header>
 
     <main>
+        <section class="main-section">
+            <h1 class="header">Three Card Monte<br>"Find the Lady"</h1>
+            
+            <div class="hiding-spots">
+                <div id="left-card" class="jack-card">
+                    <img src="jack.png" class="card">
+                    <button id="left-button">Left</button>
+                </div>
+
+                <div id="middle-card" class="jack-card">
+                    <img src="jack.png" class="card">
+                    <button id="middle-button">Middle</button>
+                </div>
+
+                <div id="right-card" class="jack-card">
+                    <img src="jack.png" class="card">
+                    <button id="right-button">Right</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="bottom-section">
+            <div>You correctly found the Lady <span id="wins">0</span> times</div>
+            <div>You incorrectly guessed the position of the Lady <span id="losses">0</span> times</div>
+            <div>You have tried <span id="attempts">0</span> times</div>
+        </section>
+
+        <div id="correct-card"></div>
+
 
     </main>
 
