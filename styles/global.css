@@ -53,7 +53,7 @@ footer {
     align-items: center;
 }
 
-.jack-card {
+.card-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,4 +70,10 @@ footer {
 .bottom-section {
     text-align: center;
     margin: 35px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

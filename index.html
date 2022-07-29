@@ -26,23 +26,19 @@
             <h1 class="header">Three Card Monte<br>"Find the Lady"</h1>
             
             <div class="hiding-spots">
-                <div id="left-card" class="jack-card">
-                    <img src="card-back.png" class="card">
+                <div class="card-container">
+                    <img id="left-card" src="./assets/card-back.png" class="card">
                     <button id="left-button">Left</button>
                 </div>
 
-                <div id="middle-card" class="jack-card">
-                    <img src="card-back.png" class="card">
+                <div class="card-container">
+                    <img id="middle-card" src="./assets/card-back.png" class="card">
                     <button id="middle-button">Middle</button>
                 </div>
 
-                <div id="right-card" class="jack-card">
-                    <img src="card-back.png" class="card">
+                <div class="card-container">
+                    <img id="right-card" src="./assets/card-back.png" class="card">
                     <button id="right-button">Right</button>
-                </div>
-
-                <div id="correct-card">
-                    <img src="" class="queen">
                 </div>
             </div>
         </section>
@@ -51,6 +47,11 @@
             <div>You correctly found the Lady <span id="wins">0</span> times</div>
             <div>You incorrectly guessed the position of the Lady <span id="losses">0</span> times</div>
             <div>You have tried <span id="attempts">0</span> times</div>
+        </section>
+
+        <section class="footer-section">
+            <button id="reset-button">Reset Cards</button>
+            <button id="score-reset">Reset Score</button>
         </section>
 
     
