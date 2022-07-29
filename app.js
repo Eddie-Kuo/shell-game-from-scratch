@@ -28,7 +28,6 @@ let totalAttempts = 0;
 
 
 
-
   // get user input
 
 
@@ -72,10 +71,14 @@ function getRandomItem(array) {
 
 function handleGuess(correctSpot, userGuess) {
     if (correctSpot === userGuess) {
-        winsEl.textContent = correctGuesses++;
-        attemptsEl.textContent = totalAttempts++;
+        correctGuesses++;
+        totalAttempts++;
+        winsEl.textContent = correctGuesses;
+        attemptsEl.textContent = totalAttempts;
     } else {
-        lossesEl.textContent = incorrectGuesses++;
-        attemptsEl.textContent = totalAttempts++;
+        incorrectGuesses++;
+        totalAttempts++;
+        lossesEl.textContent = incorrectGuesses;
+        attemptsEl.textContent = totalAttempts;
     }
 }
